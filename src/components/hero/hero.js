@@ -41,6 +41,9 @@ export default class Hero extends Component {
                 <a href="https://www.linkedin.com/in/travailavecrodolfo/" target="_blank">
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
+                <a href="https://github.com/RodolfovMoreira" target="_blank">
+                  <i className="fab fa-github" aria-hidden="true" />
+                </a>
               </div>
             </div>{" "}
             {/* end s-hero__content-about */}
