@@ -7,19 +7,20 @@ import Portifolio from './components/portfolio/portfolio';
 import Testimonials from './components/testimonials/testimonials';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import portfolioData from './portfoliodata';
 
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <Hero portfolioData={portfolioData}/>
       <Header />
-      <About />
+      <About portfolioData={portfolioData}/>
       <Resume />
       <Portifolio />
       <Testimonials />
       <Contact />
-      <Footer />
+      <Footer portfolioData={portfolioData}/>
     </div>
   );
 }

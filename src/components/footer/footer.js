@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import portfolioData from "../../portfoliodata";
 
 export default class Footer extends Component {
   render() {
@@ -8,22 +9,22 @@ export default class Footer extends Component {
           <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
             <ul className="s-footer__social">
               <li>
-                <a href="https://twitter.com/avecRodolfo" target="_blank">
+                <a href={portfolioData.twitter} target="_blank">
                   <i className="fab fa-twitter" aria-hidden="true" />
                 </a>
               </li>
               {/* <li>
-                <a href="https://www.instagram.com/rdlmoreira/" target="_blank">
+                <a href={portfolioData.instagram} target="_blank">
                   <i className="fab fa-instagram" aria-hidden="true" />
                 </a>
               </li> */}
               <li>
-                <a href="https://www.linkedin.com/in/travailavecrodolfo/" target="_blank">
+                <a href={portfolioData.linkedin} target="_blank">
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/RodolfovMoreira" target="_blank">
+                <a href={portfolioData.github} target="_blank">
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
               </li>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import portfolioData from "../../portfoliodata";
 
 export default class Hero extends Component {
   render() {
@@ -8,9 +9,9 @@ export default class Hero extends Component {
         <div className="row s-hero__content">
           <div className="column">
             <div className="s-hero__content-about">
-              <h1>I'm Rodolfo Moreira.</h1>
+              <h1>I'm {portfolioData.name}.</h1>
               <h3>
-                I'm a Maceió based <span>Developer</span> creating
+                I'm a {portfolioData.location} based <span>{portfolioData.role}</span> creating
                 awesome and effective solutions for companies of all
                 sizes around the globe. Let's '
                 <a className="smoothscroll" href="#about">
@@ -26,10 +27,10 @@ export default class Hero extends Component {
                 {/* <a href="#0">
                   <i className="fab fa-facebook-square" aria-hidden="true" />
                 </a> */}
-                <a href="https://twitter.com/avecRodolfo" target="_blank">
+                <a href={portfolioData.twitter} target="_blank">
                   <i className="fab fa-twitter" aria-hidden="true" />
                 </a>
-                {/* <a href="https://www.instagram.com/rdlmoreira/" target="_blank">
+                {/* <a href={portfolioData.instagram} target="_blank">
                   <i className="fab fa-instagram" aria-hidden="true" />
                 </a> */}
                 {/* <a href="#0">
@@ -38,10 +39,10 @@ export default class Hero extends Component {
                 {/* <a href="#0">
                   <i className="fab fa-behance" aria-hidden="true" />
                 </a> */}
-                <a href="https://www.linkedin.com/in/travailavecrodolfo/" target="_blank">
+                <a href={portfolioData.linkedin} target="_blank">
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
-                <a href="https://github.com/RodolfovMoreira" target="_blank">
+                <a href={portfolioData.github} target="_blank">
                   <i className="fab fa-github" aria-hidden="true" />
                 </a>
               </div>
