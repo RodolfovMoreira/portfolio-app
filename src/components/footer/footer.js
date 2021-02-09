@@ -8,30 +8,30 @@ export default class Footer extends Component {
           <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
             <ul className="s-footer__social">
               <li>
-                <a href="#0">
-                  <i className="fab fa-facebook-f" aria-hidden="true" />
-                </a>
-              </li>
-              <li>
-                <a href="#0">
+                <a href="https://twitter.com/avecRodolfo" target="_blank">
                   <i className="fab fa-twitter" aria-hidden="true" />
                 </a>
               </li>
-              <li>
-                <a href="#0">
+              {/* <li>
+                <a href="https://www.instagram.com/rdlmoreira/" target="_blank">
                   <i className="fab fa-instagram" aria-hidden="true" />
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#0">
-                  <i className="fab fa-dribbble" aria-hidden="true" />
+                <a href="https://www.linkedin.com/in/travailavecrodolfo/" target="_blank">
+                  <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
               </li>
               <li>
+                <a href="https://github.com/RodolfovMoreira" target="_blank">
+                  <i className="fab fa-github" aria-hidden="true" />
+                </a>
+              </li>
+              {/* <li>
                 <a href="#0">
                   <i className="fab fa-linkedin-in" aria-hidden="true" />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="column large-7 medium-6 w-1000-stack ss-copyright">

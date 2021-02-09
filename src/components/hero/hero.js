@@ -29,9 +29,9 @@ export default class Hero extends Component {
                 <a href="https://twitter.com/avecRodolfo" target="_blank">
                   <i className="fab fa-twitter" aria-hidden="true" />
                 </a>
-                <a href="https://www.instagram.com/rdlmoreira/" target="_blank">
+                {/* <a href="https://www.instagram.com/rdlmoreira/" target="_blank">
                   <i className="fab fa-instagram" aria-hidden="true" />
-                </a>
+                </a> */}
                 {/* <a href="#0">
                   <i className="fab fa-dribbble" aria-hidden="true" />
                 </a> */}
