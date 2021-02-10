@@ -14,9 +14,9 @@ let portfolioData = {
     of the processes, as for example in the research coordination of the Federal University of Alagoas\
     , where I was part of the team that transformed the processes of the sector, promoting agility and transparency.\
     The thoughts that guide me when starting a new project are to focus on the goals and work as a team.",
-    "location-firstpart": "374 Rua Hélio Pradines",
-    "location-secondpart": "Ponta Verde, Maceió-AL Brazil",
-    "phonenumber": "+55 82 99810 2559", // Change 'href' on about.js
+    "location-firstpart": "",
+    "location-secondpart": "",
+    "phonenumber": "", // Change 'href' on about.js
     "email": "rodolfomoreira1994@gmail.com" // Change 'href' on about.js
     }
 

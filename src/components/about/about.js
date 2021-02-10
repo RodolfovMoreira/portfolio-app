@@ -24,9 +24,9 @@ export default class About extends Component {
                 <h3>Contact Details</h3>
                 <p>
                   {portfolioData.name} <br />
-                  {portfolioData["location-firstpart"]} <br />
+                  {/* {portfolioData["location-firstpart"]} <br />
                   {portfolioData["location-secondpart"]} <br />
-                  <a href="tel:+5582998102559">{portfolioData.phonenumber}</a> <br />
+                  <a href="tel:+5582">{portfolioData.phonenumber}</a> <br /> */}
                   <a href="mailto:rodolfomoreira1994@gmail.com">{portfolioData.email}</a>
                 </p>
               </div>
